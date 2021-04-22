@@ -149,6 +149,13 @@
               "size": "26151901"
             },
             {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+              "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size": "26151901"
+            },
+            {
               "host": "arm-linux-gnueabihf",
               "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
               "archiveFileName": "CMSIS-5.7.0.tar.bz2",
@@ -196,6 +203,20 @@
               "archiveFileName": "STM32Tools-2.0.0-linux.tar.bz2",
               "checksum": "SHA-256:850186554df1d56f5f5336d6310551b734b2ff97c92677ca0ece11f134b72d0f",
               "size": "479795"
+            }.
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/koendv/Arduino_Tools/releases/download/2.0.0-raspberry/STM32Tools-2.0.0-linux-arm.tar.bz2",
+              "archiveFileName": "STM32Tools-2.0.0-linux-arm.tar.bz2",
+              "checksum": "SHA-256:cad331782e1ea9d6388d0e3b35d38ee69bddac96b9d52749e38b089aa82d63f4",
+              "size": "483105"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/koendv/Arduino_Tools/releases/download/2.0.0-raspberry/STM32Tools-2.0.0-linux-arm.tar.bz2",
+              "archiveFileName": "STM32Tools-2.0.0-linux-arm.tar.bz2",
+              "checksum": "SHA-256:cad331782e1ea9d6388d0e3b35d38ee69bddac96b9d52749e38b089aa82d63f4",
+              "size": "483105"
             }
           ]
         }
