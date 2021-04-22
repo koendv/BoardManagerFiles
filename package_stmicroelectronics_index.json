@@ -203,7 +203,7 @@
               "archiveFileName": "STM32Tools-2.0.0-linux.tar.bz2",
               "checksum": "SHA-256:850186554df1d56f5f5336d6310551b734b2ff97c92677ca0ece11f134b72d0f",
               "size": "479795"
-            }.
+            },
             {
               "host": "aarch64-linux-gnu",
               "url": "https://github.com/koendv/Arduino_Tools/releases/download/2.0.0-raspberry/STM32Tools-2.0.0-linux-arm.tar.bz2",
