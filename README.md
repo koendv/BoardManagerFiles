@@ -1,14 +1,21 @@
-# BoardManagerFiles
-Storage for Arduino Boards Manager JSON and package files for the [STM32](https://github.com/stm32duino/Arduino_Core_STM32) and [STM8](https://github.com/stm32duino/Arduino_Core_STM8) cores support.
+# STM32duino  BoardManagerFiles for arm64
 
-For more information see the [Wiki](https://github.com/stm32duino/wiki/wiki/). Mainly the [Getting Started page](https://github.com/stm32duino/wiki/wiki/Getting-Started).
+This is an Arduino Boardmanagerfile. 
+This allows you to develop Arduino sketches for STM32 arm boards (Blue Pill) on Raspberry Pi 64-bit.
 
-## Troubleshooting
+By itself, the [Arduino IDE](https://www.arduino.cc/en/Main/Software) does not support STM32 arm processors. This software for arm linux adds support for STM32 arm processors to the Arduino IDE.
 
-If you have any issue to download/use a package, you could [file an issue on Github](https://github.com/stm32duino/BoardManagerFiles/issues/new).
+To use, start  the Arduino IDE on your raspberry. In *File --> Preferences --> Additional Board Manager URLs:* paste the following url:
 
-Or submit a topic on the [stm32duino forum](https://www.stm32duino.com/):
+``https://raw.githubusercontent.com/koendv/BoardManagerFiles/master/package_stmicroelectronics_index.json``
 
- * questions on the [STM32 Core](https://www.stm32duino.com/viewforum.php?f=35)
+Press OK.
 
- * bugs/enhancements on the [STM core: Bugs and enhancements](https://www.stm32duino.com/viewforum.php?f=38)
+Open *Tools -> Board: -> Boards Manager*
+In the search field, type "STM32". Install the "STM32 Cores" board package. Instalation takes some time.
+
+In the Tools menu select the STM32 cores as compilation target. As an example, if using a STM32F103 Blue Pill choose *Tools->Board: -> Generic STM32F1 series* .
+
+## credit
+
+Raspberry version adapted from the [original for intel linux](https://github.com/stm32duino/BoardManagerFiles)
